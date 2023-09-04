@@ -25,8 +25,44 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: 'Outfit', sans-serif;
+  background-color: $main-light-gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.grid-container {
+  width: 13rem;
+  height: fit-content;
+  background-color: $main-white;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+
+  .image {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 5px;
+  }
+
+  .caption-container {
+    text-align: center;
+
+    h3 {
+      font-size: 1rem;
+      color: $main-dark-blue;
+    }
+
+    p {
+      font-size: 0.9375rem;
+      color: $main-grayish-blue;
+    }
+  }
+}
 
 .attribution {
   font-size: 11px;
