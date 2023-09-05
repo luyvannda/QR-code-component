@@ -26,15 +26,15 @@ body {
 
 .grid-container {
   width: 13rem;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 22rem;
   background-color: hsl(0, 0%, 100%);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  gap: 0.46rem;
 }
 .grid-container .image {
   width: 12rem;
@@ -43,6 +43,9 @@ body {
 }
 .grid-container .caption-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .grid-container .caption-container h3 {
   font-size: 1rem;
@@ -53,9 +56,15 @@ body {
   color: hsl(220, 15%, 55%);
 }
 
+.image-and-caption {
+  position: relative;
+  bottom: 0.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

@@ -34,14 +34,15 @@ body {
 
 .grid-container {
   width: 13rem;
-  height: fit-content;
+  height: 22rem;
   background-color: $main-white;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  gap: 0.46rem;
 
   .image {
     width: 12rem;
@@ -51,6 +52,9 @@ body {
 
   .caption-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
     h3 {
       font-size: 1rem;
@@ -64,9 +68,15 @@ body {
   }
 }
 
+.image-and-caption {
+  position: relative;
+  bottom: 0.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
 
   a {
     color: hsl(228, 45%, 44%);
