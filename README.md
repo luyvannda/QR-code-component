@@ -51,5 +51,3 @@ I hope to learn more about how to build more project with Sass in the future. Ad
 - Website - [Luy Vannda](https://www.linkedin.com/in/luyvannda/)
 - Frontend Mentor - [@luyvannda](https://www.frontendmentor.io/profile/luyvannda)
 - Twitter - [@luyvannda](https://twitter.com/luyvannda)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
